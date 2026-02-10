@@ -1,1 +1,10 @@
+{
+  "updateSources": [
+    {
+      "type": "SteamCMD",
+      "appId": 1812450,
+      "branch": "public"
+    }
+  ]
+}
 
