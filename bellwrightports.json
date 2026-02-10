@@ -1,1 +1,21 @@
+{
+  "ports": [
+    {
+      "id": "GamePort",
+      "name": "Game Port",
+      "description": "Primary game port",
+      "default": 7777,
+      "protocol": "udp",
+      "isGamePort": true
+    },
+    {
+      "id": "QueryPort",
+      "name": "Steam Query Port",
+      "description": "Steam server query port",
+      "default": 27015,
+      "protocol": "udp",
+      "isQueryPort": true
+    }
+  ]
+}
 
