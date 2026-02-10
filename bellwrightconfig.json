@@ -1,1 +1,15 @@
 
+{
+  "settings": [
+    {
+      "id": "MaxPlayers",
+      "name": "Max Players",
+      "description": "Maximum number of players",
+      "type": "integer",
+      "default": 10,
+      "min": 1,
+      "max": 64,
+      "required": true
+    }
+  ]
+}
