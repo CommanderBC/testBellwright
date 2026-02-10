@@ -1,9 +1,9 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+  "id": "bellwright-templates-bw",
+  "authors": ["CommanderBC"],
+  "origin": "https://github.com/CommanderBC/AMPTemplates.git",
+  "url": "https://github.com/CommanderBC/AMPTemplates",
+  "imagefile": "",
+  "prefix": "bw",
+  "repotype": "AppTemplates"
 }
