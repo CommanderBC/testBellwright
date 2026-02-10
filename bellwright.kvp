@@ -1,1 +1,24 @@
+[Application]
+Name=Bellwright Dedicated Server
+Description=Bellwright dedicated server (SteamCMD)
+Author=github
+SupportsLinux=True
+SupportsWindows=False
 
+[Update]
+Method=SteamCMD
+AppID=1812450
+Branch=public
+InstallDir=serverfiles
+
+[Startup]
+Executable=./BellwrightServer.sh
+WorkingDirectory=serverfiles
+Arguments=-log -port={{GamePort}} -queryport={{QueryPort}} -maxplayers={{MaxPlayers}}
+StartupMode=Immediate
+ShutdownMode=Terminate
+
+[Console]
+Type=StandardIO
+Readable=True
+Writable=False
